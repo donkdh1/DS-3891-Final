@@ -290,6 +290,6 @@ def bot():
     return str(r)
 
 
-# run the app (port 5000 does not work with Twilio)
+# run the app
 if __name__ == "__main__":
     app.run(port=5000)
